@@ -18,6 +18,13 @@ class Person {
         int getID(){
             return id;
         }
+
+        void setName(string name){
+            this->name = name;
+        }
+        void setID(int id){
+            this->id = id;
+        }
         
         Person(){};
         ~Person(){};
